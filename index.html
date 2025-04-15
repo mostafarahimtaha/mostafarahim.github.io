@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mostafa Rahim | Portfolio & Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Hello, this is Mostafa’s site!</h1>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-black text-white p-6 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mostafa Rahim</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#projects" class="hover:text-yellow-400">Projects</a>
+        <a href="#services" class="hover:text-yellow-400">Services</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Mostafa 👋</h2>
+    <p class="text-lg max-w-xl mx-auto">I build solutions that connect people, data, and design. Whether you're looking to collaborate, hire, or explore — you're in the right place.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-4">About Me</h3>
+    <p class="text-gray-700 leading-relaxed">
+      I'm a developer and business specialist passionate about technology, mobility, and innovation. I work with data, build smart apps, and help brands grow. Let's create something impactful together.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-6 bg-gray-100 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-8">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="p-4 bg-white shadow rounded-xl">
+        <h4 class="font-semibold text-xl mb-2">📊 Ridership Prediction App</h4>
+        <p>Built a machine learning model to forecast daily bus ridership using Prophet and LSTM.</p>
+      </div>
+      <div class="p-4 bg-white shadow rounded-xl">
+        <h4 class="font-semibold text-xl mb-2">📱 Mwasalat App Redesign</h4>
+        <p>Led the redesign of a transportation app, improving UI/UX and fixing user pain points.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-8">Services</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-50 p-6 rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-2">🚀 Strategy & Growth</h4>
+        <p>I help businesses grow with data-driven strategies and smart planning.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-2">💻 Web Development</h4>
+        <p>Clean, modern websites using the latest tools and frameworks.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-2">📈 Data Analytics</h4>
+        <p>From raw data to real insights — dashboards, reports, and forecasting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 bg-gray-100 text-center">
+    <h3 class="text-3xl font-bold mb-6">Let's Work Together</h3>
+    <p class="text-lg mb-4">📧 Email me at <a href="mailto:yourname@email.com" class="text-blue-600 underline">yourname@email.com</a></p>
+    <div class="flex justify-center space-x-6 text-2xl mt-4">
+      <a href="https://linkedin.com/in/yourname" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/mostafarahimtaha" target="_blank">🐱 GitHub</a>
+      <a href="https://twitter.com/yourhandle" target="_blank">🐦 Twitter</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4 mt-12">
+    © 2025 Mostafa Rahim. All rights reserved.
+  </footer>
+
 </body>
 </html>
