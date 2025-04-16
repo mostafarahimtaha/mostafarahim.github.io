@@ -48,20 +48,26 @@
     <div class="card-body p-0">
         <!-- Text Section -->
         <div class="p-5">
-            <h2 class="fw-bolder">Transjakarta BRT Operations Dashboard</h2>
+            <h2 class="fw-bolder">BRT System Dashboard</h2>
             <p>
-                This interactive Power BI dashboard showcases key metrics from the Transjakarta Bus Rapid Transit (BRT) operations in April 2023, covering 36.47K transactions across 221 corridors. Insights include gender and age-based passenger distribution, rush hour patterns, revenue breakdowns by day and payment method, and tap-in activity by time and weekday. Designed to support data-driven decisions for public transit optimization.
+                This Power BI dashboard showcases insights for the Bus Rapid Transit (BRT) system using real ridership, routes, and operational metrics. It includes analysis of station performance, passenger trends, and route optimization to help stakeholders make data-driven transit decisions.
             </p>
-            <div class="d-flex flex-wrap gap-3">
-                <a class="btn btn-primary" href="https://github.com/mostafarahimtaha/BRT/blob/main/BRTanalysis.ipynb" target="_blank">
-                    View Python Analysis Notebook
-                </a>
-            </div>
+            <a class="btn btn-outline-dark mb-3" href="https://github.com/mostafarahimtaha/BRT/blob/main/BRT-analysis.ipynb" target="_blank">
+                View Python Notebook on GitHub
+            </a>
+            <a class="btn btn-outline-primary mb-3" href="https://github.com/mostafarahimtaha/BRT/blob/main/BRT.pdf" target="_blank">
+                View Dashboard PDF on GitHub
+            </a>
         </div>
 
-        <!-- Embed GitHub PDF Viewer -->
-        <div class="ratio ratio-16x9">
-            <iframe src="https://github.com/mostafarahimtaha/BRT/blob/main/BRT.pdf" title="Transjakarta BRT Dashboard PDF" allowfullscreen></iframe>
+        <!-- PDF Preview (GitHub Raw) -->
+        <div style="height: 800px;">
+            <iframe 
+                src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/mostafarahimtaha/BRT/raw/main/BRT.pdf"
+                width="100%" 
+                height="100%" 
+                style="border: none;">
+            </iframe>
         </div>
     </div>
 </div>
